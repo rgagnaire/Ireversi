@@ -15,6 +15,7 @@ public class Tile {
         this.disc = null; // Initialize no disc on the tile
     }
 
+
      public void removeDisc() {
         this.disc = null;
     }
