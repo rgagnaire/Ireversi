@@ -1,7 +1,7 @@
 package utils.gameboard;
 
-public class bombTile extends Tile {
-    public bombTile(int row, int col, String tileType, int bonusPoint) {
+public class BombTile extends Tile {
+    public BombTile(int row, int col, String tileType, int bonusPoint) {
         super(row, col, tileType, bonusPoint);
         this.tileType = "Bomb"; // Set the tile type to "Bomb"
 

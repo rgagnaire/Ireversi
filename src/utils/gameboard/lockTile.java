@@ -1,7 +1,7 @@
 package utils.gameboard;
 
-public class lockTile extends Tile {
-    public lockTile(int row, int col) {
+public class LockTile extends Tile {
+    public LockTile(int row, int col) {
         super(row, col, "Lock", 0);
         this.tileType = "Lock"; // Set the tile type to "Lock"
     }
